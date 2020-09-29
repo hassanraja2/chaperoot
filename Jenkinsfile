@@ -3,7 +3,7 @@ pipeline{
         stages{
             stage('Build Image'){
                 steps{
-                    sh "sudo docker build -t chaperoo ."
+                    sh "sudo docker build -t hassanraja2/chaperoo ."
                 }
             }
             stage('Clean'){
